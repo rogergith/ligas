@@ -35,7 +35,7 @@ public class DeporteController {
 	@PostMapping("/deporte")
 	public void almacenar(@RequestBody Deporte deporte){
 		
-		LOG.info("METODO 'almacenar' "+deporte);
+		LOG.info("METODO 'almacenarddddd' "+deporte);
 		deporteService.almacenar(deporte);
 		
 	}
